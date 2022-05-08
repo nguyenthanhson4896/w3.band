@@ -11,10 +11,10 @@
             <div id="header">
                 <!-- begin nav -->
                 <ul id="nav">
-                    <li><a href="">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#content">Band</a></li>
-                    <li><a href="">Tour</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="">
                         More
                         <i class="nav-arrow-d ti-angle-down"></i>
@@ -74,7 +74,7 @@
                 
                 
                 <!-- tour section -->
-            <div class="tour-section">
+            <div class="tour-section" id="tour">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-subheading text-white">Remember to book your tickets!</p>
@@ -125,39 +125,81 @@
                 
                 
                 <!-- contact section -->
-                <div class="content-section">
+                <div class="content-section" id="contact">
                     <h2 class="section-heading">CONTACT</h2>
                     <p class="section-subheading">Fan? Drop a note!</p>
-                    <div class="row">
-                        <div class="col col-half">
-                            <div>
+                    <div class="row contact-content">
+                        <div class="col col-half contact-info">
+                            <p>
                                 <i class="ti-location-pin"></i>
                                 Chicago, US
-                            </div>
-                            <div>
+                            </p>
+                            <p>
                                 <i class="ti-mobile"></i>
                                 Phone: +00 151515
-                            </div>
-                            <div>
+                            </p>
+                            <p>
                                 <i class="ti-email"></i>
                                 Email: mail@mail.com
-                            </div>
-
-
-                            
+                            </p>
                         </div>
-                        <div class="col col-half"></div>
+                        <div class="col col-half ">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-half">
+                                        <input type="text" required placeholder="Name" class="form-control">
+
+                                    </div>
+                                    <div class="col col-half">
+                                        <input type="email" required placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-full mt-8">
+                                        <input type="text" required placeholder="Message" class="form-control">
+                                    </div>
+                                </div>
+                                <input type="submit" value="SEND" class="mt-16 contact-submit-btn">
+
+                            </form>
+                        </div>
+                        
+
+                        
                     </div>
+                    
                 </div>
 
                 <!-- contact section -->
-
+            
 
             </div>
             
-            
+            <div class="map-section">
+                <img src="./assets/img/map/map.jpg" alt="">
+            </div>
             <div id="footer">
-                
+               <div class="social-list">
+                   <a href="">
+                       <i class="ti-facebook"></i>
+                   </a> 
+                   <a href="">
+                       <i class="ti-instagram"></i>
+                   </a>
+                   <a href="">
+                       <i class="ti-reddit"></i>
+                   </a>
+                   <a href="">
+                       <i class="ti-vimeo-alt"></i>
+                   </a>
+                   <a href="">
+                       <i class="ti-skype"></i>
+                   </a>
+                   <a href="">
+                       <i class="ti-google"></i>
+                   </a>
+                </div>
+                <p class="mt-16" style="color: rgba(0, 0, 0, 0.6);">Powered by <a href="">w3.css</a></p> 
             </div>
         </div>
         <div class="modal js-modal">

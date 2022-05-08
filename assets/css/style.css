@@ -12,6 +12,7 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 .row{
     margin-left: -8px;
@@ -28,7 +29,16 @@ html{
 .col-half{
     width: 50%;
 }
-
+.col-full{
+    width: 100%;
+}
+.contact-info{
+    font-size: 18px;
+}
+.contact-info i{
+    width: 30px;
+    display: inline-block;
+}
 /* MAIN */
 #header{
     height: 46px;
@@ -267,10 +277,6 @@ html{
     color: black;
 
 }
-
-#footer{
-    
-}
 .modal{
     position: fixed;
     top: 0;
@@ -367,4 +373,55 @@ html{
 
     }
 }
-
+.contact-content{
+    margin-top: 48px;
+}
+.contact-info{
+    font-size: 18px;
+}
+.form-control{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.contact-info i[class*="ti-"]{
+    width: 30px;
+    display: inline-block;
+}
+.mt-8{
+    margin-top: 8px;!important
+}
+.mt-16{
+    margin-top: 16px;!important
+}
+.contact-submit-btn{
+    padding: 10px 15px;
+    float: right;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.contact-submit-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+.map-section img{
+    width: 100%;
+    margin-top: 102px;
+}
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+.social-list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+    opacity: 1;
+}
+.social-list a:hover{
+    opacity: 0.6;
+}
